@@ -1,0 +1,189 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "V&KGoblinPackage",
+				"abbreviation": "GP",
+				"full": "Goblin Pack",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"authors": [
+					"MrVauxs",
+					"Kanekuo"
+				],
+				"convertedBy": [
+					"MrVauxs"
+				],
+				"version": "0.0.0"
+			}
+		],
+		"dateAdded": 1574617011,
+		"dateLastModified": 1574617011
+	},
+	"monster": [
+		{
+			"name": "Frost Goblin",
+			"source": "V&KGoblinPackage",
+			"page": 0,
+			"size": "S",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"formula": "2d6 + 2",
+				"average": 9
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 12,
+			"con": 12,
+			"int": 10,
+			"wis": 8,
+			"cha": 8,
+			"skill": {
+				"athletics": "+3",
+				"survival": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"resist": [
+				"cold"
+			],
+			"languages": [
+				"Goblin"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Survivalist",
+					"entries": [
+						"The Frost Goblin can move freely through any difficult terrain in an arctic enviroment."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Rope Pike",
+					"entries": [
+						"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage.",
+						"On a hit, the target must succeed on an Athletics or Acrobatics check against the Frost Goblins Athletics check. On a fail, their speed is halved and whenever they move 20 ft. away from the goblin, they take {@dice 1d4} piercing damage. They can try to end this effect as an action, rolling Athletics or Acrobatics against the goblins Athletics check."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"hill",
+				"mountain"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"GO"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"RW",
+				"MW"
+			]
+		},
+		{
+			"name": "Better Frost Goblin",
+			"source": "V&KGoblinPackage",
+			"page": 0,
+			"size": "S",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"formula": "2d6 + 2",
+				"average": 9
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 12,
+			"con": 12,
+			"int": 10,
+			"wis": 8,
+			"cha": 8,
+			"skill": {
+				"athletics": "+3",
+				"survival": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"resist": [
+				"cold"
+			],
+			"languages": [
+				"Goblin"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Survivalist",
+					"entries": [
+						"The Frost Goblin can move freely through any difficult terrain in an arctic enviroment."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Rope Pike",
+					"entries": [
+						"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage.",
+						"On a hit, the target must succeed on an Athletics or Acrobatics check against the Frost Goblins Athletics check. On a fail, their speed is halved and whenever they move 20 ft. away from the goblin, they take {@dice 1d4} piercing damage. They can try to end this effect as an action, rolling Athletics or Acrobatics against the goblins Athletics check."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"hill",
+				"mountain"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"GO"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"RW",
+				"MW"
+			]
+		}
+
+	]
+}
