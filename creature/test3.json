@@ -105,7 +105,7 @@
 		{
 	"name": "MyThingy",
 	"isNamedCreature": true,
-	"source": "Blawatest",
+	"source": "V&KGoblinPackage",
 	"page": 301,
 	"size": "M",
 	"type": "fiend",
